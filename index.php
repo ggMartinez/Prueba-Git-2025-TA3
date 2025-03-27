@@ -1,4 +1,5 @@
 <h1> Lista de Patos </h1>
+-----------------------------------
 <?php
 $servername = getenv("DB_SERVER");
 $username = getenv("DB_USERNAME");
