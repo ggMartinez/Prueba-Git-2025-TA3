@@ -1,7 +1,7 @@
 services:
   app:
     container_name: aplicacion
-    image: aplicacion:v5
+    image: php:8.3-apache
     environment:
       - DB_SERVER=mysql
       - DB_NAME=aplicacion
